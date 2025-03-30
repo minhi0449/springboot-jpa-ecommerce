@@ -60,9 +60,13 @@ Icon
 *.log
 logs/
 
-### 환경 설정 ###
+### 환경 설정 파일 (.properties, .yml) ###
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+application.properties
+application.yml
+application-*.properties
+application-*.yml
