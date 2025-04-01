@@ -19,39 +19,24 @@
 | **DevOps**   | ![Docker 20.10](https://img.shields.io/badge/Docker%2020.10-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions CI/CD](https://img.shields.io/badge/GitHub%20Actions%20CI%2FCD-2088FF?style=flat&logo=github-actions&logoColor=white)  ![AWS](https://img.shields.io/badge/AWS%20(EC2%20%7C%20RDS%20%7C%20S3)-F7931E?style=flat&logo=amazon-aws&logoColor=white) |
 ---
 
-## 🎯 주요 기능 (Core Features)
+## 주요 기능 (Core Features)
 
-### 🛒 **1. 상품 관리 (Product Management)**
+### **1. 상품 관리 (Product Management)**
 - 상품 등록, 수정, 삭제 기능 제공  
 - 카테고리별 상품 분류 및 검색  
 - 판매 여부 설정 (판매 중 / 품절)  
 
-### 🛍️ **2. 장바구니 (Shopping Cart)**
+### **2. 장바구니 (Shopping Cart)**
 - 상품을 장바구니에 추가 및 삭제  
 - 장바구니 내 상품 수량 조정  
 
-### 💳 **3. 주문 및 결제 (Order & Payment)**
+### **3. 주문 및 결제 (Order & Payment)**
 - 주문 내역 조회 및 주문 취소 기능 제공  
 - PG(Payment Gateway) 연동을 통한 결제 처리  
 
-### 🔒 **4. 회원 관리 (User Management)**
+### **4. 회원 관리 (User Management)**
 - Spring Security를 활용한 로그인 및 권한 관리  
 - 회원가입 및 비밀번호 암호화 (BCrypt)  
 - 관리자(Admin) 및 일반 사용자(User) 구분  
 
 ---
-
-## 📦 시스템 아키텍처 (System Architecture)
-
-```plaintext
-+----------------------+        +----------------------+
-|   🛍️  사용자 (User)   |  --->  |  🌐 웹 애플리케이션 (Spring Boot) |
-+----------------------+        +----------------------+
-                                      |
-            ------------------------------------------------
-            |                      |                        |
-  +---------------+      +---------------+        +----------------+
-  | 📦 상품 서비스  |      | 💳 결제 서비스  |        | 🛒 주문 서비스  |
-  +---------------+      +---------------+        +----------------+
-            |                      |                        |
-        +---------------------- 데이터베이스 (MySQL) ----------------------+
