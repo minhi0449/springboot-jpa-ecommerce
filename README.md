@@ -9,7 +9,7 @@
 
 ---
 
-## 🛠️ 사용 기술 (Tech Stack)
+## ✸ 사용 기술 (Tech Stack)
 
 | 분야        | 기술 스택 |
 |------------|-------------------------------------------------------------------------------------|
@@ -19,7 +19,7 @@
 | **DevOps**   | ![Docker 20.10](https://img.shields.io/badge/Docker%2020.10-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions CI/CD](https://img.shields.io/badge/GitHub%20Actions%20CI%2FCD-2088FF?style=flat&logo=github-actions&logoColor=white)  ![AWS](https://img.shields.io/badge/AWS%20(EC2%20%7C%20RDS%20%7C%20S3)-F7931E?style=flat&logo=amazon-aws&logoColor=white) |
 ---
 
-## 주요 기능 (Core Features)
+## ✦ 주요 기능 (Core Features)
 
 ### **1. 상품 관리 (Product Management)**
 - 상품 등록, 수정, 삭제 기능 제공  
