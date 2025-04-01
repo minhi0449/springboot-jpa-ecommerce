@@ -4,10 +4,10 @@
 **Spring Boot 3와 JPA**를 활용하여 **전자상거래(쇼핑몰) 시스템**을 구축하는 프로젝트입니다.  
 상품 관리, 회원 관리, 주문 및 결제 기능을 포함하며, **확장성과 유지보수성**을 고려하여 설계되었습니다.
 
-- 🛒 **상품 등록 및 관리, 장바구니, 결제 시스템, 주문 내역 조회**
-- 🔒 **Spring Security를 활용한 인증 및 권한 관리**
-- 🚀 **클린 아키텍처 적용 및 모듈화**
-- ☁️ **AWS를 활용한 배포 및 CI/CD 자동화**
+✓ **상품 등록 및 관리, 장바구니, 결제 시스템, 주문 내역 조회**
+✓ **Spring Security를 활용한 인증 및 권한 관리**
+✓ **클린 아키텍처 적용 및 모듈화**
+✓ **AWS를 활용한 배포 및 CI/CD 자동화**
 
 ---
 
@@ -15,7 +15,7 @@
 
 | 분야        | 기술 스택 |
 |------------|-------------------------------------------------------------------------------------|
-| **Backend**  | ![Java](https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-6DB33F?logo=spring-boot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring%20Security-5.7-6DB33F?logo=spring&logoColor=white) |
+| **Backend**  | ![Java](https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.3-6DB33F?logo=spring-boot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring%20Security-5.7-6DB33F?logo=spring&logoColor=white) |
 | **Frontend** | ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-3.0-brightgreen?logo=thymeleaf&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) |
 | **Database** | ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-Hibernate-59666C?logo=hibernate&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-5.0-DC382D?logo=redis&logoColor=white) |
 | **DevOps**   | ![Docker](https://img.shields.io/badge/Docker-20.10-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20RDS%20%7C%20S3-F7931E?logo=amazon-aws&logoColor=white) |
